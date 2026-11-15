@@ -4,6 +4,7 @@ Latest question intake: [SRC-006 - Next-day tasks question](SRC-006-tomorrow-tas
 
 | ID | Subject | Author | Original date | Added date | Preserved material |
 |---|---|---|---|---|---|
+| SRC-014 | Explain each Phase 0 task | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved follow-up](SRC-014-phase-0-task-explanation.md) |
 | SRC-013 | Verified context reuse workflow | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-013-verified-context-reuse.md) |
 | SRC-012 | Task ID reset and repeated-reading question | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-012-task-numbering-and-token-question.md) |
 | SRC-011 | Schedule six Phase 0 tasks for Monday | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-011-monday-phase-0-tasks.md) |

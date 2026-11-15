@@ -2,6 +2,8 @@
 
 ## Q-013
 
+- Follow-up 2026-11-15: [SRC-014](sources/SRC-014-phase-0-task-explanation.md) asks what to do for each current task T-001 through T-006. Explain practical actions and suggested outputs using the Phase 0 guide; actual schema names require operations-repository inspection. Exact phase acceptance remains unresolved. Task status and dates unchanged.
+
 - Question (verbatim): explain what i have to do for phase 0
 - Source: [SRC-009](sources/SRC-009-phase-0-explanation.md), 2026-11-15.
 - Status: partially answered; linked follow-up to Q-008.
