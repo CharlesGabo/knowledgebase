@@ -9,6 +9,7 @@ def fingerprint(root):
     paths = set()
     for folder in ('knowledge-base', 'codex-prompts'):
         paths.update(p for p in (root / folder).rglob('*') if p.is_file())
+    paths.update(p for p in (root / 'app').rglob('*.md') if '.runtime' not in p.parts)
     paths.update(p for p in root.iterdir() if p.is_file() and p.suffix.lower() in ('.md', '.docx', '.pdf', '.txt'))
     paths.add(root / 'tools' / 'check_kb.py')
     for required in ('AGENTS.md', 'knowledge-base/index.md', 'knowledge-base/maintenance.md', 'tma-ops-processes.md'):

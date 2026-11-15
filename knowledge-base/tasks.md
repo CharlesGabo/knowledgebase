@@ -1,21 +1,68 @@
 # Tasks and next steps
 
-Use [task commands](task-commands.md) to add and schedule work. Existing entries retain their original evidence/status; an Owner plan is work Alex plans to do, not automatically a commitment Alex assigned to Charles.
+> Generated from tasks.json. Use the app or task helper to edit tasks; manual edits are detected and preserved for reconciliation.
 
 ## Dated task register
 
-New tasks and explicit schedules go here. User examples do not create tasks. Existing T-IDs are reused when scheduling matching work, with links to the original evidence. Planned dates and hard deadlines are separate; assistant-proposed dates remain labeled suggestions.
+| ID | Task | Owner | Assigned by | Status | Priority | Planned dates | Hard deadline | Evidence |
+|---|---|---|---|---|---|---|---|---|
+| T-001 | Understand operations and write learning notes | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-002 | Map initial website features to operations data | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-003 | Draft the integration design | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-004 | Draft business-account and signup flows | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-005 | Investigate tax and product content | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-006 | Prepare the Phase 0 review package for Alex | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
 
-| ID | Task | Owner | Assigned by | Assignment evidence | Status | Planned date/week (Asia/Manila) | Hard deadline | Schedule basis | Dependencies / estimate |
-|---|---|---|---|---|---|---|---|---|---|
-| T-001 | Understand operations and write learning notes. Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
-| T-002 | Map initial website features to operations data. Produce a feature/data-owner/source table; verify actual schema and function names in the operations repo. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
-| T-003 | Draft the integration design. Cover publication, sync, inbox validation, customer matching, pricing precedence, failure handling and duplicate prevention. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
-| T-004 | Draft business-account and signup flows. Describe organization membership, proposed roles, optional approvals and staff signup review; flag undecided rules. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
-| T-005 | Investigate tax and product content. Record AvaTax/exemption and Icecat/distributor-content findings and gaps; investigation only, no checkout implementation. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
-| T-006 | Prepare the Phase 0 review package for Alex. Assemble notes, feature/data map, design drafts, investigation findings and open questions; preparation does not mean submission or approval. | Charles | You | [SRC-011](sources/SRC-011-monday-phase-0-tasks.md) | Pending | 2026-11-16 (Monday) | None stated | User requested; adopted assistant breakdown | Parent LEGACY-T-008; effort unknown |
+Planned dates use Asia/Manila. Done means user-reported completion, not Alex approval.
 
-These six tasks are the user-adopted breakdown of LEGACY-T-008, planned for Monday in Asia/Manila. Their order is suggested; no daily capacity or effort estimates were supplied, so completion of all six that day is not established. Keep 1-2 active at a time. Phase 0 acceptance remains open in [Q-008](questions.md#q-008).
+## Task details
+
+### T-001
+
+Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+### T-002
+
+Produce a feature/data-owner/source table; verify actual schema and function names in the operations repo.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+### T-003
+
+Cover publication, sync, inbox validation, customer matching, pricing precedence, failure handling and duplicate prevention.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+### T-004
+
+Describe organization membership, proposed roles, optional approvals and staff signup review; flag undecided rules.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+### T-005
+
+Record AvaTax/exemption and Icecat/distributor-content findings and gaps; investigation only, no checkout implementation.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+### T-006
+
+Assemble notes, feature/data map, design drafts, investigation findings and open questions; preparation does not mean submission or approval.
+
+Assignment context: User requested; adopted assistant breakdown
+Dependencies: LEGACY-T-008
+
+
+## Live task history
+
+[Task event evidence](sources/task-events.md). Existing source archives and earlier ID mappings are preserved below.
 
 ## Task ID migration
 
@@ -78,3 +125,4 @@ Phase 0 design is pending; completing setup/starting this KB does not complete t
 ## Suggested actions (not agreed commitments)
 
 Use the [Phase 0 revision checklist](phase-0.md#suggested-revision-checklist) for LEGACY-T-008. Clarify environment mapping ([Q-009](questions.md#q-009)), Phase 0 acceptance ([Q-008](questions.md#q-008)) and applicable open design choices ([Q-010](questions.md#q-010)). Recommend the user's Notion Questions for Alex area for unanswered Owner questions; Access / tools only for access/tool issues. These suggestions have no assigned deadlines. Vendor API implementation stays later scope and has no assigned individual task yet.
+

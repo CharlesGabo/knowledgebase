@@ -1,0 +1,352 @@
+{
+  "schema": 1,
+  "revision": 3,
+  "next_id": 7,
+  "tasks": [
+    {
+      "id": "T-001",
+      "title": "Understand operations and write learning notes",
+      "description": "Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 999,
+      "archived": false,
+      "notes": [],
+      "revision": 3,
+      "completed_at": null
+    },
+    {
+      "id": "T-002",
+      "title": "Map initial website features to operations data",
+      "description": "Produce a feature/data-owner/source table; verify actual schema and function names in the operations repo.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 1000,
+      "archived": false,
+      "notes": [],
+      "revision": 1,
+      "completed_at": null
+    },
+    {
+      "id": "T-003",
+      "title": "Draft the integration design",
+      "description": "Cover publication, sync, inbox validation, customer matching, pricing precedence, failure handling and duplicate prevention.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 2000,
+      "archived": false,
+      "notes": [],
+      "revision": 1,
+      "completed_at": null
+    },
+    {
+      "id": "T-004",
+      "title": "Draft business-account and signup flows",
+      "description": "Describe organization membership, proposed roles, optional approvals and staff signup review; flag undecided rules.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 3000,
+      "archived": false,
+      "notes": [],
+      "revision": 1,
+      "completed_at": null
+    },
+    {
+      "id": "T-005",
+      "title": "Investigate tax and product content",
+      "description": "Record AvaTax/exemption and Icecat/distributor-content findings and gaps; investigation only, no checkout implementation.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 4000,
+      "archived": false,
+      "notes": [],
+      "revision": 1,
+      "completed_at": null
+    },
+    {
+      "id": "T-006",
+      "title": "Prepare the Phase 0 review package for Alex",
+      "description": "Assemble notes, feature/data map, design drafts, investigation findings and open questions; preparation does not mean submission or approval.",
+      "owner": "Charles",
+      "assigned_by": "You",
+      "assignment_note": "User requested; adopted assistant breakdown",
+      "sources": [
+        "sources/SRC-011-monday-phase-0-tasks.md"
+      ],
+      "status": "To do",
+      "priority": "Normal",
+      "start": "2026-11-16",
+      "end": null,
+      "deadline": null,
+      "dependencies": [
+        "LEGACY-T-008"
+      ],
+      "order": 5000,
+      "archived": false,
+      "notes": [],
+      "revision": 1,
+      "completed_at": null
+    }
+  ],
+  "legacy": [
+    {
+      "id": "LEGACY-T-001",
+      "title": "Create the initial linked knowledge base and maintenance instructions",
+      "owner": "Codex",
+      "status": "Completed",
+      "detail": "Added/completed 2026-11-15; deadline not stated | [SRC-002](sources/SRC-002-request.md)"
+    },
+    {
+      "id": "LEGACY-T-002",
+      "title": "Process future manually supplied material using the maintenance procedure",
+      "owner": "Codex when material is provided",
+      "status": "Pending future input",
+      "detail": "No deadline stated | SRC-002"
+    },
+    {
+      "id": "LEGACY-T-003",
+      "title": "Move DEV into a separate Supabase organization, clean it up and make it the shared development space",
+      "owner": "Alex",
+      "status": "Planned; pending completion/access evidence",
+      "detail": "Not stated"
+    },
+    {
+      "id": "LEGACY-T-004",
+      "title": "Seed DEV with better test data including real vendor catalogs",
+      "owner": "Alex",
+      "status": "Planned; no seeding evidence",
+      "detail": "Not stated"
+    },
+    {
+      "id": "LEGACY-T-005",
+      "title": "Share vendor FTP logins separately for examining vendor files",
+      "owner": "Alex",
+      "status": "Stated intention; no access receipt confirmed; store no credentials here",
+      "detail": "Not stated"
+    },
+    {
+      "id": "LEGACY-T-006",
+      "title": "Create website repository when needed",
+      "owner": "Alex",
+      "status": "Conditional offer; need/creation not confirmed",
+      "detail": "When needed; no date"
+    },
+    {
+      "id": "LEGACY-T-007",
+      "title": "Complete operations weekend setup/checklist and run local sandbox with test persona",
+      "owner": "Charles",
+      "status": "Completed by user report; not independently tested",
+      "detail": "Completion date unknown; recorded 2026-11-15; [SRC-004](sources/SRC-004-completed-setup.md)"
+    },
+    {
+      "id": "LEGACY-T-008",
+      "title": "Revise the operations-to-website integration approach for Phase 0 using the current framework",
+      "owner": "Charles",
+      "status": "User-stated intention; pending; actual draft not supplied",
+      "detail": "Original intention: 'tomorrow' (original date unknown), [SRC-004](sources/SRC-004-completed-setup.md). Six subtasks T-001 through T-006 now planned for 2026-11-16 by user request, [SRC-011](sources/SRC-011-monday-phase-0-tasks.md); no Owner deadline"
+    }
+  ],
+  "events": [
+    {
+      "id": "EVT-000001",
+      "operation_id": "f735a957-8b08-4a9a-a5ed-edcbe998b395",
+      "request_hash": "2e92f130f821fd9055af51c10f00afa22db1ff901251c288b6a2076c8a90b4a0",
+      "at": "2026-11-16T00:11:49+08:00",
+      "actor": "You via local UI",
+      "action": "update",
+      "task_id": "T-001",
+      "request": {
+        "action": "update",
+        "id": "T-001",
+        "changes": {
+          "status": "In progress",
+          "order": 0
+        },
+        "expected": "bf9a32c26114bbc8a0fa877d0acabec9664ff6be153418e42e28301bf60705ad",
+        "operation_id": "f735a957-8b08-4a9a-a5ed-edcbe998b395",
+        "actor": "You via local UI"
+      },
+      "before": {
+        "id": "T-001",
+        "title": "Understand operations and write learning notes",
+        "description": "Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.",
+        "owner": "Charles",
+        "assigned_by": "You",
+        "assignment_note": "User requested; adopted assistant breakdown",
+        "sources": [
+          "sources/SRC-011-monday-phase-0-tasks.md"
+        ],
+        "status": "To do",
+        "priority": "Normal",
+        "start": "2026-11-16",
+        "end": null,
+        "deadline": null,
+        "dependencies": [
+          "LEGACY-T-008"
+        ],
+        "order": 0,
+        "archived": false,
+        "notes": [],
+        "revision": 1,
+        "completed_at": null
+      },
+      "after": {
+        "id": "T-001",
+        "title": "Understand operations and write learning notes",
+        "description": "Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.",
+        "owner": "Charles",
+        "assigned_by": "You",
+        "assignment_note": "User requested; adopted assistant breakdown",
+        "sources": [
+          "sources/SRC-011-monday-phase-0-tasks.md"
+        ],
+        "status": "In progress",
+        "priority": "Normal",
+        "start": "2026-11-16",
+        "end": null,
+        "deadline": null,
+        "dependencies": [
+          "LEGACY-T-008"
+        ],
+        "order": 0,
+        "archived": false,
+        "notes": [],
+        "revision": 2,
+        "completed_at": null
+      }
+    },
+    {
+      "id": "EVT-000002",
+      "operation_id": "0f469fe9-3b48-48ad-b1f2-152a82242654",
+      "request_hash": "c7645a13433c101676f10423767cf41b7d8c93f919d7caae1ca45e72ff095bb6",
+      "at": "2026-11-16T00:11:58+08:00",
+      "actor": "You via local UI",
+      "action": "update",
+      "task_id": "T-001",
+      "request": {
+        "action": "update",
+        "id": "T-001",
+        "changes": {
+          "status": "To do",
+          "order": 999
+        },
+        "expected": "09030fdf7b354536758eeb7076a2ca34d57082e0ebc9f61d5c61bf338a3a7b26",
+        "operation_id": "0f469fe9-3b48-48ad-b1f2-152a82242654",
+        "actor": "You via local UI"
+      },
+      "before": {
+        "id": "T-001",
+        "title": "Understand operations and write learning notes",
+        "description": "Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.",
+        "owner": "Charles",
+        "assigned_by": "You",
+        "assignment_note": "User requested; adopted assistant breakdown",
+        "sources": [
+          "sources/SRC-011-monday-phase-0-tasks.md"
+        ],
+        "status": "In progress",
+        "priority": "Normal",
+        "start": "2026-11-16",
+        "end": null,
+        "deadline": null,
+        "dependencies": [
+          "LEGACY-T-008"
+        ],
+        "order": 0,
+        "archived": false,
+        "notes": [],
+        "revision": 2,
+        "completed_at": null
+      },
+      "after": {
+        "id": "T-001",
+        "title": "Understand operations and write learning notes",
+        "description": "Trace one sandbox product through catalog, pricing and order; note data model, FTP pipeline and business rules.",
+        "owner": "Charles",
+        "assigned_by": "You",
+        "assignment_note": "User requested; adopted assistant breakdown",
+        "sources": [
+          "sources/SRC-011-monday-phase-0-tasks.md"
+        ],
+        "status": "To do",
+        "priority": "Normal",
+        "start": "2026-11-16",
+        "end": null,
+        "deadline": null,
+        "dependencies": [
+          "LEGACY-T-008"
+        ],
+        "order": 999,
+        "archived": false,
+        "notes": [],
+        "revision": 3,
+        "completed_at": null
+      }
+    }
+  ],
+  "legacy_markdown": "## Task ID migration\n\nOn 2026-11-15 the user explicitly requested that their six Phase 0 tasks start at T-001. This is a one-time exception to the stable-ID rule, authorized by [SRC-012](sources/SRC-012-task-numbering-and-token-question.md). Current project tasks are T-001 through T-006; the next new task is T-007. Earlier administrative records, Alex-owned plans and the parent task remain under LEGACY-T-001 through LEGACY-T-008 with their status and sources intact. These legacy records remain relevant when listing pending work by owner.\n\n| Prior ID (before migration) | Current ID |\n|---|---|\n| T-001 | LEGACY-T-001 |\n| T-002 | LEGACY-T-002 |\n| T-003 | LEGACY-T-003 |\n| T-004 | LEGACY-T-004 |\n| T-005 | LEGACY-T-005 |\n| T-006 | LEGACY-T-006 |\n| T-007 | LEGACY-T-007 |\n| T-008 | LEGACY-T-008 |\n| T-009 | T-001 |\n| T-010 | T-002 |\n| T-011 | T-003 |\n| T-012 | T-004 |\n| T-013 | T-005 |\n| T-014 | T-006 |\n\nArchived sources and earlier conversation messages keep their original IDs. Interpret those IDs using this mapping; never treat an old source reference to T-001 as the current Phase 0 task. A bare current task command uses the current ID; if the user cites an older source or message and the intended task is ambiguous, resolve through this mapping or ask. No dates, assignments, status or deadlines changed.\n\n## Task change history\n\n- 2026-11-15: Renumbered the six Phase 0 tasks to T-001 through T-006 by explicit user request; moved prior T-001 through T-008 to LEGACY-T-001 through LEGACY-T-008. Updated current cross-references; original source wording retained. Historical entries below show migrated IDs for clarity. [SRC-012](sources/SRC-012-task-numbering-and-token-question.md)\n\nRecord future additions, rescheduling, completion reports and cancellations here with date, T-ID, previous/new values and SRC-ID. Preserve original assignment evidence when the user changes a planned work date. Completed means reported completion unless verification evidence is supplied.\n\n- 2026-11-15: Added T-001 through T-006 as pending, user-assigned subtasks of LEGACY-T-008 for 2026-11-16. LEGACY-T-008 previously had undated relative timing; this request explicitly schedules its six-part breakdown. No hard deadline, completion or Alex approval inferred. [SRC-011](sources/SRC-011-monday-phase-0-tasks.md)\n\n## Agreed work\n\n| ID | Task | Owner | Status | Date/deadline | Source |\n|---|---|---|---|---|---|\n| LEGACY-T-001 | Create the initial linked knowledge base and maintenance instructions | Codex | Completed | Added/completed 2026-11-15; deadline not stated | [SRC-002](sources/SRC-002-request.md) |\n| LEGACY-T-002 | Process future manually supplied material using the maintenance procedure | Codex when material is provided | Pending future input | No deadline stated | SRC-002 |\n\n## Owner plans and conditional next steps\n\nAll entries below are from [SRC-003](sources/SRC-003-website-environments.md). Original dates and deadlines are unknown. These track stated plans/offers; none is verified complete.\n\n| ID | Task or offer | Owner | Status | Date/deadline |\n|---|---|---|---|---|\n| LEGACY-T-003 | Move DEV into a separate Supabase organization, clean it up and make it the shared development space | Alex | Planned; pending completion/access evidence | Not stated |\n| LEGACY-T-004 | Seed DEV with better test data including real vendor catalogs | Alex | Planned; no seeding evidence | Not stated |\n| LEGACY-T-005 | Share vendor FTP logins separately for examining vendor files | Alex | Stated intention; no access receipt confirmed; store no credentials here | Not stated |\n| LEGACY-T-006 | Create website repository when needed | Alex | Conditional offer; need/creation not confirmed | When needed; no date |\n\n## Reported progress and next session\n\n| ID | Work | Owner | Status | Timing/source |\n|---|---|---|---|---|\n| LEGACY-T-007 | Complete operations weekend setup/checklist and run local sandbox with test persona | Charles | Completed by user report; not independently tested | Completion date unknown; recorded 2026-11-15; [SRC-004](sources/SRC-004-completed-setup.md) |\n| LEGACY-T-008 | Revise the operations-to-website integration approach for Phase 0 using the current framework | Charles | User-stated intention; pending; actual draft not supplied | Original intention: 'tomorrow' (original date unknown), [SRC-004](sources/SRC-004-completed-setup.md). Six subtasks T-001 through T-006 now planned for 2026-11-16 by user request, [SRC-011](sources/SRC-011-monday-phase-0-tasks.md); no Owner deadline |\n\nPhase 0 design is pending; completing setup/starting this KB does not complete the phase. Current deliverables and suggested revision checks are in [Phase 0](phase-0.md). The full [roadmap](project-scope.md) is planned scope, not a list of invented individual delivery commitments.\n\n## Suggested actions (not agreed commitments)\n\nUse the [Phase 0 revision checklist](phase-0.md#suggested-revision-checklist) for LEGACY-T-008. Clarify environment mapping ([Q-009](questions.md#q-009)), Phase 0 acceptance ([Q-008](questions.md#q-008)) and applicable open design choices ([Q-010](questions.md#q-010)). Recommend the user's Notion Questions for Alex area for unanswered Owner questions; Access / tools only for access/tool issues. These suggestions have no assigned deadlines. Vendor API implementation stays later scope and has no assigned individual task yet.\n",
+  "projection_before": {
+    "tasks.md": "8e7554c622b80abfc7c5b77b67bff46c0a2e06bb790f6114a8ed99618d7a3b2f",
+    "sources/task-events.md": "2e3671f714d5ab12df328493d7d2cd0461346cf9eeaa76cddda033f076610a25"
+  }
+}

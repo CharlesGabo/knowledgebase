@@ -4,6 +4,7 @@ Latest question intake: [SRC-006 - Next-day tasks question](SRC-006-tomorrow-tas
 
 | ID | Subject | Author | Original date | Added date | Preserved material |
 |---|---|---|---|---|---|
+| SRC-015 | Local task app, planning choices and documentation requirement | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved requests](SRC-015-local-task-app.md) |
 | SRC-014 | Explain each Phase 0 task | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved follow-up](SRC-014-phase-0-task-explanation.md) |
 | SRC-013 | Verified context reuse workflow | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-013-verified-context-reuse.md) |
 | SRC-012 | Task ID reset and repeated-reading question | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-012-task-numbering-and-token-question.md) |
@@ -25,3 +26,5 @@ SRC-001 is a summary, not the underlying primary documents. It names `AGENTS.md`
 Future original emails, chats and notes live here under immutable SRC-IDs, separate from topic summaries. Record communication date independently of intake date; unknown remains unknown.
 
 SRC-005 is the user-designated current scope version and explicitly a framework, not a final specification. Preserve its DOCX unchanged; hash and conversion notes are in its Markdown copy. SRC-004 reports setup completion without proving any Phase 0 integration design complete.
+
+Task UI/helper evidence: [task-events.md](task-events.md) is generated from tasks.json and uses stable EVT IDs. Each event records author, original/intake timestamp, structured request and before/after values. Original SRC assignment archives remain unchanged.
