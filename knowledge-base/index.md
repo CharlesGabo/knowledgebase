@@ -11,6 +11,8 @@ Start with [project scope](overview.md). Current entries describe what the avail
 - [Decisions and history](decisions.md): reported decisions and later changes.
 - [Questions and answers](questions.md): unresolved scope and evidence gaps.
 - [Tasks and next steps](tasks.md): commitments versus suggested work.
+- [Task commands](task-commands.md): add tasks, plan days/weeks, list, complete and reschedule; show who assigned each task.
+- [Knowledge commands](knowledge-commands.md): add supplied knowledge or ask questions with clear, teaching-style answers.
 - [Source register](sources/index.md): provenance and preserved originals.
 - [Maintenance guide](maintenance.md): how to process future material.
 

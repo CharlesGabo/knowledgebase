@@ -1,5 +1,24 @@
 # Questions and answers
 
+## Q-013
+
+- Question (verbatim): explain what i have to do for phase 0
+- Source: [SRC-009](sources/SRC-009-phase-0-explanation.md), 2026-11-15.
+- Status: partially answered; linked follow-up to Q-008.
+- Answer/support: SRC-005 defines operations learning/system notes, initial feature-to-data mapping, integration design for review, business-account/signup design, and AvaTax/exemption/product-content investigations. See the canonical [Phase 0 guide](phase-0.md). Operations setup is already complete by user report (SRC-004); design completion is not evidenced. Suggested working order and document packaging are assistant interpretations, not additional Owner assignments.
+- Remaining: Exact acceptance checklist/estimates and Alex's review remain unresolved in Q-008; business choices in Q-010 and environments in Q-009 remain open. No dates or new individual commitments created.
+
+## Q-012
+
+- Question (verbatim): are there any task for me tomorrow
+- Context/source: [SRC-006](sources/SRC-006-tomorrow-tasks-question.md), asked 2026-11-15; tomorrow is 2026-11-16 in Asia/Manila.
+- Status: answered from available records; no Owner reply supplied
+- Answer/support: [LEGACY-T-008](tasks.md#reported-progress-and-next-session) records Charles's intention to revise the Phase 0 operations-to-website integration approach using the current framework. SRC-004's original date is unknown, so its earlier relative 'tomorrow' is not independently a confirmed November 16 appointment. No fixed Owner deadline or additional dated assignment is recorded. Operations setup LEGACY-T-007 is already complete by user report.
+- Suggested session focus: Use the [Phase 0 checklist](phase-0.md#suggested-revision-checklist) to map features/data, draft publication/sync/inbox/customer-linking/pricing design, and flag open decisions. These are suggestions, not new commitments.
+- Remaining limits: No live task board inspected; the supplied knowledge base cannot establish whether later assignments exist.
+- Recorded: 2026-11-15. No task status or deadline changed.
+
+
 Q-001 through Q-004 were inferred during initial organization. Q-005 and Q-006 summarize the user's supplied question; Q-007 and Q-008 are follow-ups inferred from the reply. Q-009 through Q-011 arise from the newly supplied setup/scope; Q-010 sub-IDs preserve the framework's open decisions. The original exchange is preserved in SRC-003. Entries added/updated 2026-11-15; original communication dates unknown and no deadlines assigned.
 
 ## Q-001

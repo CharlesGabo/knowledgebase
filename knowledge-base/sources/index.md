@@ -1,7 +1,16 @@
 # Source register
 
+Latest question intake: [SRC-006 - Next-day tasks question](SRC-006-tomorrow-tasks-question.md), User, original/intake date 2026-11-15 (Asia/Manila). Answer recorded under [Q-012](../questions.md#q-012); no new task commitment.
+
 | ID | Subject | Author | Original date | Added date | Preserved material |
 |---|---|---|---|---|---|
+| SRC-013 | Verified context reuse workflow | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-013-verified-context-reuse.md) |
+| SRC-012 | Task ID reset and repeated-reading question | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-012-task-numbering-and-token-question.md) |
+| SRC-011 | Schedule six Phase 0 tasks for Monday | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-011-monday-phase-0-tasks.md) |
+| SRC-010 | Knowledge commands and teaching-style replies | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-010-knowledge-commands-style.md) |
+| SRC-009 | Phase 0 responsibilities question | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved question](SRC-009-phase-0-explanation.md) |
+| SRC-008 | Codex CLI/IDE command-menu clarification | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-008-codex-menu-commands.md) |
+| SRC-007 | Task commands, daily/weekly planning and visible Alex assignments | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved requests](SRC-007-task-command-requests.md) |
 | SRC-001 | TMA Operations Platform ? processes and rules (context summary) | Unknown | Unknown | 2026-11-15 | [Original unchanged](../../tma-ops-processes.md) |
 | SRC-002 | Knowledge-base creation and maintenance request | User; name unknown | Unknown | 2026-11-15 | [Request context](SRC-002-request.md) |
 | SRC-003 | Website environments, repository and catalog access | User (question); Alex, Owner (reply) | Unknown | 2026-11-15 | [Preserved exchange](SRC-003-website-environments.md) |

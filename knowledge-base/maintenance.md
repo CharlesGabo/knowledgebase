@@ -4,7 +4,7 @@
 
 Use the [index](index.md) to select a topic. Keep one canonical home per fact and link from other files. Add a topic only when actual material warrants it. Operations-platform background must remain distinct from approved website requirements.
 
-Sources use permanent sequential SRC-IDs; decisions D-IDs, questions Q-IDs and tasks T-IDs. Never recycle IDs. Cite `[SRC-001 ?1](../tma-ops-processes.md)` from root topic files, or link to the appropriate source archive. Source sections locate evidence; upstream documents not inspected must not be presented as verified.
+Sources use permanent sequential SRC-IDs; decisions D-IDs, questions Q-IDs and tasks T-IDs. Never recycle IDs. One explicit user-authorized task renumbering was performed on 2026-11-15; use the [task ID migration](tasks.md#task-id-migration) to interpret older source IDs. Preserve that mapping and allocate new tasks from T-007 onward. Cite `[SRC-001 ?1](../tma-ops-processes.md)` from root topic files, or link to the appropriate source archive. Source sections locate evidence; upstream documents not inspected must not be presented as verified.
 
 ## Status labels
 
@@ -18,9 +18,21 @@ Sources use permanent sequential SRC-IDs; decisions D-IDs, questions Q-IDs and t
 
 ## Update procedure
 
+### Task commands and planning
+
+Follow [task commands](task-commands.md) for conversational task intake and scheduling. Keep task facts and current schedules canonical in [tasks](tasks.md). A requested work date is a planned date unless explicitly called a deadline. Preserve assignment authority and distinguish assistant-proposed schedules from user commitments. Administrative command-setup requests do not require project Q-IDs.
+
 ### Answering project questions with context
 
-When the user asks a project question, consult all current topic files, decisions, questions and tasks through the index. Inspect relevant archived sources and history, including conflicting or superseded evidence, before answering. Do not rely solely on conversation memory or the nearest matching paragraph. For a larger knowledge base, search across all files and read the relevant entries and their linked evidence.
+Use the following fingerprint-and-review procedure for project questions and knowledge/task updates:
+
+1. Run `python tools/check_kb.py --expect <last-reviewed-fingerprint>` (omit the option on first use). The checker reads bytes locally and emits only a short fingerprint/count/state. It covers every file under knowledge-base/ and codex-prompts/, root Markdown/Word/PDF/text files and the checker itself. Content edits, additions, deletions and renames change the fingerprint even if timestamps are unchanged. New sources outside these paths must be inspected and added to coverage before reuse is allowed; do not assume unavailable external references were checked.
+2. Reuse is allowed only if the fingerprint equals a completed review's fingerprint retained in this same conversation AND the full review and relevant supporting evidence remain available. A digest, earlier answer, summary, persisted cache file or successful scan alone is not proof that review occurred. A new session, context compaction/reset, missing review provenance, missing evidence or uncertain context requires a fresh full review.
+3. On any changed fingerprint, review the index, all current topic/guide files, questions, decisions and tasks; inspect relevant archived sources and history, including conflicts and superseded decisions. Include new/unregistered files in the inventory assessment so new sources cannot be silently missed. Read in manageable batches; truncated output does not count as reviewed content. Consult original evidence for any new detail not supported by retained context, even when files are unchanged.
+4. Keep the review fingerprint in conversation context only after completing that review. Recheck immediately before finalizing an answer. If files changed during work, reconcile and perform a full review of the new version. After intentional writes, inspect the actual changes, refresh the full review and then capture a new baseline; never advance the baseline merely by hashing unseen changes. If the check fails, do not claim unchanged/reuse; resolve the failure and review current sources before answering from them.
+5. This procedure reduces repeated file output; it does not make conversation context free, guarantee model recall, or waive source citations, authority checks, question intake and validation. Purely administrative replies do not need a full project review unless project facts are used.
+
+All current knowledge must be considered, but unchanged files do not need to be printed again when every reuse condition holds. For a larger knowledge base, search across all files and read relevant entries and their linked evidence after establishing the full current context.
 
 Check proposed work against the current scope, phase boundaries and open decisions in `project-scope.md`, `integration.md` and `phase-0.md`. Preserve framework flexibility; do not treat planned scope as implemented work.
 
