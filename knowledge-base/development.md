@@ -12,6 +12,8 @@ SRC-005 now specifies: significant features/database changes start with a review
 
 ### Notion questions and task tracking
 
+**Additional communication flexibility, received 2026-11-16:** Alex says questions may be supplied in **any appropriate format**. Notion Questions for Alex remains an available established process; her message does not require every question to be in Notion or explicitly retire it. See [SRC-024](sources/SRC-024-work-google-tools-and-questions.md) and [work Google tools](technology.md#work-collaboration-tools). No response-time promise, deliverable deadline or new assignment is stated.
+
 The user has a Notion **Questions for Alex** area. If the knowledge base cannot answer an Owner question, recommend posting there manually, with the missing context/decision and a suggested question. For access/tool blockers use **Area: Access / tools**. Do not recommend asking again about facts already answered here; cite the answer first. No Notion URL is supplied and no posting/monitoring is authorized. [SRC-004](sources/SRC-004-completed-setup.md)
 
 The website framework uses a shared Notion Kanban board (Backlog -> To Do -> In Progress -> Review -> Done), WIP limit 1-2, plus Work Log, Knowledge Base and Decision Log. Each phase starts with scoping and ends with demo/review; flag blockers lasting more than a shift. Log each shift with date, hours, tasks, PR links and blockers. The user reports hour tracking enabled and shift commands tried; actual Work Log submissions are not verified. [SRC-004](sources/SRC-004-completed-setup.md); [SRC-005](sources/SRC-005-website-counter-proposal.md), sections 1, 6.

@@ -10,6 +10,12 @@ Open task details to edit title, description, assignment context, source links, 
 
 If data changes while a task editor is open, the draft is kept and saving against the old version is rejected. Copy any draft text you want to keep, click Load latest task, compare and reapply it. Nothing is silently merged. A connection error retains the form; retrying the same save reuses its operation ID.
 
+## Daily plans and completed history
+
+To focus on one day, choose **Board**, **Day**, then set **Selected date** (for example, Tuesday 2026-11-17). Monday's dated tasks, including Done tasks, disappear from that view without changing their records. Set Owner to Charles to exclude Alex-owned work. Calendar Day/Week/Month shows dated tasks on their planned dates; go back to Monday or use All tasks to inspect history.
+
+Filters use planned start/end dates, not the day a task was completed. Unscheduled tasks remain visible (in a separate calendar section). All tasks is the startup default and includes earlier Done work. The app does not automatically archive completed tasks, choose the next day, retain your date filter across reloads, or roll a continuously open view forward at midnight. Set the desired date when you start your day; Today selects the browser session's local-day value, so reload after an overnight session to refresh it. These are existing behaviors clarified after [SRC-026](../../knowledge-base/sources/SRC-026-tuesday-plan-and-day-filter.md); no migration or app behavior change is involved.
+
 ## Task commands
 
 All task mutations must use the helper. Start by reading the latest state/token:

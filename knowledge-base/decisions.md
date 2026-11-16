@@ -23,6 +23,8 @@ D-001 and D-002 are reported operations-platform decisions from [SRC-001](../tma
 
 ## D-003
 
+- Follow-up 2026-11-16: The user reports a planned week for the existing DEV move; see [current technical status](technology.md#website-environments-and-platform-direction) and [SRC-016](sources/SRC-016-shared-dev-week-plan.md). This adds timing context, not a new approval or replacement of the sandbox/production boundaries. Migration and access remain pending.
+
 - Decision: Phase 0 may proceed in the sandbox and begin as documentation. Future shared DEV receives only review-ready changes headed for production soon; unfinished work stays in the sandbox. Keep production separate.
 - Status: Approved direction; DEV rollout and access pending, not completed.
 - Decided by: Alex, identified as Owner by the user.
@@ -44,6 +46,8 @@ D-001 and D-002 are reported operations-platform decisions from [SRC-001](../tma
 - History: Replaces the earlier lack of website platform evidence; no earlier platform approval is known to be superseded.
 
 ## D-005
+
+- Follow-up 2026-11-16: Charles's revised scope SRC-025 proposes a UI-first sequence and expanded details, but explicitly awaits Alex review. See [proposal comparison](project-scope.md#revised-proposal-awaiting-review). D-005/SRC-005 is not superseded; no new approval is inferred.
 
 - Direction: Two separate applications/Auth systems; operations owns and publishes curated data; website submissions enter operations inbox processing; reuse existing business integrations. See [integration](integration.md) and [scope](project-scope.md) for the canonical details.
 - Status: Current working framework, designated by the user; not a final detailed specification or evidence of completed implementation.

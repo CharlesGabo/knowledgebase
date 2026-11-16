@@ -6,6 +6,37 @@ The user identifies Alex's November 2026 counter-proposal as the current project
 
 Work covers both systems: extend operations first, then build the customer site. Charles is primary customer-site developer; Alex is technical lead, co-developer and PR reviewer. The website serves business buyers with business accounts, customer pricing, purchase orders and tax-exemption support. See [integration design boundaries](integration.md) and [Phase 0 revision guide](phase-0.md).
 
+## Revised proposal awaiting review
+
+On 2026-11-16, Charles supplied a [revised project scope](<Phase 0-PROJECT_SCOPE.md>) and explicitly said it is **still up for review by Alex**. [SRC-025](sources/SRC-025-revised-scope-intake.md) preserves the intake and an exact document snapshot. This is the latest user-authored proposal, not an approved replacement for SRC-005. The roadmap below this section still describes SRC-005; name the source when using phase numbers.
+
+The draft's rationale is to inspect a full clickable website using sample data before changing CC, then map each screen to its required data and test the connection in development before enabling it live with the catalog.
+
+| Work | SRC-005 framework | SRC-025 proposed sequence |
+|---|---|---|
+| Foundations/design | Phase 0 | Phase 0, marked drafted/under review |
+| Complete clickable UI with sample data | No separate phase | New Phase 1; no CC connection |
+| Map/build/test the connection | Phase 0 design; Phase 1 plumbing | New Phase 2; development only |
+| Catalog tools and live connection | Phase 1 | Phase 3 |
+| Customer website v1 / launch | Phase 2 | Phase 4 |
+| Customer self-service | Phase 3 | Phase 5 |
+| Checkout and tax | Phase 4 | Phase 6 |
+| Catalog expansion | Ongoing | Ongoing |
+| Growth/marketing and later AI | Phase 5+ | Phase 7+ |
+
+All proposed implementation, launch and live activation steps remain subject to design/review and existing deployment authority. They are not dated assignments, permission to change production, or evidence of provisioning. Existing tasks are unchanged.
+
+**Review gaps and evidence limits:**
+
+- Section 10 calls login-only prices, "Request a quote" for products outside a price list, and no fixed industry "Decided." The user has submitted the whole draft for review; no supporting Alex answers for these specific decisions were supplied with it. Keep Q-010-A/B/D open and distinguish the draft's asserted rules from approved rules.
+- The draft names Cloudflare R2 as the backup provider and describes a definite QuickBooks/Avalara tax setup. Earlier inventory evidence was qualified (Q-015); these are now user-authored assertions, not independently checked configuration or an Owner confirmation. Detailed tax-estimate/final-invoice and certificate handling is proposed design, not demonstrated capability or proof of matching tax amounts.
+- Additional page details include a printer-supplies finder, quick-order uploads, address-change requests and a tax-exemption page. Existing printer data and CC behavior are assertions in the draft; supporting code/data and linked design documents have not been supplied here.
+- Phase 4's account dashboard lists recent orders and unpaid invoices, while detailed orders/invoices are assigned to Phase 5. Clarify the minimum data needed at first launch. Section 3 also says most CC changes are built in Phase 3 while Phase 2 explicitly builds the connection; reconcile that summary with the detailed sequence.
+- Links to `customer-site/`, nested `knowledge-base/` and `README.md` refer to a supporting package absent at those locations in this repository. Preserve the original; missing references limit verification of its research, schema checks and design details.
+- Phase 0 is described as drafted/under review. This supplies a scope draft, not the full linked package, Alex acceptance, or evidence that all Phase 0 work is complete.
+
+Approval tracking: [Q-019](questions.md#q-019). Relevant existing questions remain Q-008 (acceptance), Q-009 (environment mapping), Q-010 (business choices), Q-015 (production service details) and Q-016 (payment reconciliation). No earlier decision is superseded merely because this draft is newer.
+
 ## Phased roadmap
 
 Phases follow dependencies, may overlap, and are scoped/estimated together when they begin. Each phase ends with demo/review; password-protected staging supports progress review. No fixed delivery dates. [SRC-005](sources/SRC-005-website-counter-proposal.md), sections 3, 6.

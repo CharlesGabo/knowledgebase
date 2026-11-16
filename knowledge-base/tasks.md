@@ -6,12 +6,19 @@
 
 | ID | Task | Owner | Assigned by | Status | Priority | Planned dates | Hard deadline | Evidence |
 |---|---|---|---|---|---|---|---|---|
-| T-001 | Understand operations and write learning notes | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
-| T-002 | Map initial website features to operations data | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
-| T-003 | Draft the integration design | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
-| T-004 | Draft business-account and signup flows | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
-| T-005 | Investigate tax and product content | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
-| T-006 | Prepare the Phase 0 review package for Alex | Charles | You | To do | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-002 | Map initial website features to operations data | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-003 | Draft the integration design | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-001 | Understand operations and write learning notes | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-004 | Draft business-account and signup flows | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-005 | Investigate tax and product content | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-006 | Prepare the Phase 0 review package for Alex | Charles | You | Done | Normal | 2026-11-16 | None stated | [SRC-011-monday-phase-0-tasks](sources/SRC-011-monday-phase-0-tasks.md) |
+| T-007 | Fix the remaining W76 QuickBooks/CC alignment flaw | Alex | Alex | Backlog | Normal | Unscheduled | None stated | [SRC-019-qb-cc-accounting-sync](sources/SRC-019-qb-cc-accounting-sync.md) |
+| T-008 | Review the revised scope and reconcile review gaps | Charles | Assistant suggestion | To do | Normal | 2026-11-17 | None stated | [SRC-026-tuesday-plan-and-day-filter](sources/SRC-026-tuesday-plan-and-day-filter.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md) |
+| T-009 | Prepare focused scope, account and access questions for Alex | Charles | Assistant suggestion | Archived / To do | Normal | 2026-11-17 | None stated | [SRC-026-tuesday-plan-and-day-filter](sources/SRC-026-tuesday-plan-and-day-filter.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md), [SRC-027-cf-tuesday-task-revisions](sources/SRC-027-cf-tuesday-task-revisions.md) |
+| T-010 | Prepare the new client-facing website repository | Charles | You | To do | Normal | 2026-11-17 | None stated | [SRC-026-tuesday-plan-and-day-filter](sources/SRC-026-tuesday-plan-and-day-filter.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md), [SRC-027-cf-tuesday-task-revisions](sources/SRC-027-cf-tuesday-task-revisions.md) |
+| T-011 | Integrate this knowledge base with the new knowledge base in the CC repository | Charles | You | To do | Normal | 2026-11-17 | None stated | [SRC-027-cf-tuesday-task-revisions](sources/SRC-027-cf-tuesday-task-revisions.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md) |
+| T-012 | Create a SKILL.md containing UI rules for the client-facing website | Charles | You | To do | Normal | 2026-11-17 | None stated | [SRC-027-cf-tuesday-task-revisions](sources/SRC-027-cf-tuesday-task-revisions.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md) |
+| T-013 | Develop the initial version of the client-facing website | Charles | You | To do | Normal | 2026-11-17 to 2026-11-18 | None stated | [SRC-027-cf-tuesday-task-revisions](sources/SRC-027-cf-tuesday-task-revisions.md), [SRC-025-revised-scope-intake](sources/SRC-025-revised-scope-intake.md) |
 
 Planned dates use Asia/Manila. Done means user-reported completion, not Alex approval.
 
@@ -58,6 +65,55 @@ Assemble notes, feature/data map, design drafts, investigation findings and open
 
 Assignment context: User requested; adopted assistant breakdown
 Dependencies: LEGACY-T-008
+
+### T-007
+
+Alex reports W76 almost done, with a remaining flaw she plans to fix. Exact flaw and completion/deployment evidence not supplied. Source says tomorrow, but original message date is unknown; no calendar date or deadline inferred. External-payment status coverage remains unconfirmed (Q-016).
+
+Assignment context: Alex's own stated plan in a user-supplied reply; not an assignment to Charles. Timing: original message says tomorrow; communication date unknown. Pending work, not completion.
+Dependencies: None recorded
+
+### T-008
+
+Review SRC-025 without repeating completed Phase 0 research. In a working copy, reconcile Phase 2 connection work versus Phase 3 catalog work, launch dashboard data versus Phase 5 self-service, missing supporting-document links, and claims labelled decided. Link evidence or mark assumptions/questions; preserve the intake source. Output: concise change list and a review-ready draft or corrections. No Alex approval inferred.
+
+Assignment context: User requested Tuesday 2026-11-17 planning; assistant-derived task selection and sequence, not an Alex assignment. Schedule basis: User requested date; proposed workload/sequence. Availability and effort unknown; work one or two items at a time. Revised phase order still awaits Alex review.
+Dependencies: None recorded
+
+### T-009
+
+Cancelled from the active plan at the user's request in SRC-027; archived rather than completed. Previous question-preparation task and its original wording remain in SRC-026 and event history.
+
+Assignment context: User requested Tuesday 2026-11-17 planning; assistant-derived task selection and sequence, not an Alex assignment. Schedule basis: User requested date; proposed workload/sequence. Availability and effort unknown; work one or two items at a time. Revised phase order still awaits Alex review.
+Dependencies: T-008
+
+### T-010
+
+Prepare the CF repository for initial UI work: confirm the TMA repository location, owner/access and local development setup, follow its instructions, and establish a documented starting structure. Use the existing operations sandbox as context; do not assume a new website environment is provisioned. Coordinate any Alex-owned repository/access step through the user. Actual creation/setup awaits required access and scope decisions; this task is not evidence it has happened. Replaces the earlier UI kickoff checklist by user request.
+
+Assignment context: Explicit user assignment/revision in SRC-027. Schedule basis: User requested Tuesday 2026-11-17 plan; initial development also Wednesday 2026-11-18. Not an Alex assignment or evidence of phase approval. Repository/environment availability and scope approval remain unconfirmed.
+Dependencies: T-008
+
+### T-011
+
+Locate and review the user-reported newer CC-repo knowledge base alongside this one. Compare sources, dates, facts, open questions, decisions and task references; reconcile duplicate/conflicting entries and define canonical homes with cross-links. Preserve original evidence, history and the unchanged operations source; do not promote proposals into Alex-approved decisions. CC-repo path and content still need inspection; no merge has been performed.
+
+Assignment context: Explicit user assignment/revision in SRC-027. Schedule basis: User requested Tuesday 2026-11-17 plan; initial development also Wednesday 2026-11-18. Not an Alex assignment or evidence of phase approval. Repository/environment availability and scope approval remain unconfirmed.
+Dependencies: None recorded
+
+### T-012
+
+Create a reusable CF UI-rules skill from the reviewed scope, design requirements and available evidence. Cover layout/navigation, workflow clarity, accessibility, responsive behavior, component consistency and interaction states as supported; clearly distinguish approved rules from suggested defaults and unresolved decisions. Keep employee-only CC requirements separate from customer website rules. Read the skill-creator instructions when performing this task; validate the actual skill. Do not treat this task entry as a completed skill.
+
+Assignment context: Explicit user assignment/revision in SRC-027. Schedule basis: User requested Tuesday 2026-11-17 plan; initial development also Wednesday 2026-11-18. Not an Alex assignment or evidence of phase approval. Repository/environment availability and scope approval remain unconfirmed.
+Dependencies: T-011
+
+### T-013
+
+Build the initial CF UI version in the prepared website repository, following the UI-rules skill and reviewed page/flow plan. In the current draft this means sample data and clickable customer journeys, without CC integration or live payments/tax. Confirm Alex approval of the UI-first phase sequence, repository access and environment before actual implementation; no approval or provisioning is inferred from this user task. Record validation and unfinished scope. Tuesday-Wednesday is a requested work window, not a promise to finish the entire production website.
+
+Assignment context: Explicit user assignment/revision in SRC-027. Schedule basis: User requested Tuesday 2026-11-17 plan; initial development also Wednesday 2026-11-18. Not an Alex assignment or evidence of phase approval. Repository/environment availability and scope approval remain unconfirmed.
+Dependencies: T-010, T-012
 
 
 ## Live task history

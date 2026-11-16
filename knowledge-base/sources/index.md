@@ -4,6 +4,18 @@ Latest question intake: [SRC-006 - Next-day tasks question](SRC-006-tomorrow-tas
 
 | ID | Subject | Author | Original date | Added date | Preserved material |
 |---|---|---|---|---|---|
+| SRC-027 | CF task revisions and Tuesday-Wednesday development plan | User | 2026-11-16 | 2026-11-16 | [Preserved task request](SRC-027-cf-tuesday-task-revisions.md) |
+| SRC-026 | Tuesday tasks and daily completed-history view | User | 2026-11-16 | 2026-11-16 | [Preserved request and planning context](SRC-026-tuesday-plan-and-day-filter.md) |
+| SRC-025 | Revised customer website scope, awaiting Alex review | User (Charles) | 16 November 2026 | 2026-11-16 | [Intake, original and immutable snapshot](SRC-025-revised-scope-intake.md) |
+| SRC-024 | Work Google tools and flexible question formats | Alex; User acknowledgement | Unknown (interface label "Now") | 2026-11-16 | [Preserved exchange](SRC-024-work-google-tools-and-questions.md) |
+| SRC-023 | Tools used in Command Center question | User | 2026-11-16 (session date) | 2026-11-16 | [Preserved question](SRC-023-cc-tools-question.md) |
+| SRC-022 | VA purchase cards and website card-payment options | Alex message; user explanation question | Unknown | 2026-11-16 | [Preserved message/question](SRC-022-va-pcard-payment-flow.md) |
+| SRC-021 | Net 30 and flexible payment channels | Alex, supplied by user | Unknown | 2026-11-16 | [Preserved clarification](SRC-021-net-30-payment-flexibility.md) |
+| SRC-020 | Website-only customer payments proposal question | User | 2026-11-16 (session date) | 2026-11-16 | [Preserved question](SRC-020-website-only-payment-question.md) |
+| SRC-019 | External payments and W76 QB/CC alignment | User question; Alex reply | Unknown | 2026-11-16 | [Preserved exchange](SRC-019-qb-cc-accounting-sync.md) |
+| SRC-018 | Command Center tools and outside services | User intake; inventory author unknown | Unknown | 2026-11-16 | [Preserved repo-scan report](SRC-018-cc-service-inventory.md) |
+| SRC-017 | Command Center name and explanation question | User question; excerpt speaker unspecified (context suggests Alex) | Unknown; question received 2026-11-16 | 2026-11-16 | [Preserved message and question](SRC-017-command-center-explanation.md) |
+| SRC-016 | Shared DEV migration planned this week | User, reporting Alex | Alex communication date unknown; user report 2026-11-16 | 2026-11-16 | [Preserved report](SRC-016-shared-dev-week-plan.md) |
 | SRC-015 | Local task app, planning choices and documentation requirement | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved requests](SRC-015-local-task-app.md) |
 | SRC-014 | Explain each Phase 0 task | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved follow-up](SRC-014-phase-0-task-explanation.md) |
 | SRC-013 | Verified context reuse workflow | User | 2026-11-15 (session date) | 2026-11-15 | [Preserved request](SRC-013-verified-context-reuse.md) |

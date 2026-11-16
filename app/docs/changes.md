@@ -1,5 +1,9 @@
 # App change log
 
+## 2026-11-16 - Daily-history usage clarification
+
+After SRC-026, documented existing Day/date/owner filters for separating Tuesday work from Monday's Done records. No code, schema, migration, automatic archiving or default-view behavior changed. A Node check executed the actual app.js date predicate against current saved tasks: Tuesday 2026-11-17 with owner Charles selects T-008 through T-010; Monday retains six Done tasks. Browser interaction was not exercised. Startup still defaults to All tasks, date grouping uses planned dates, unscheduled work stays visible, and an overnight browser session requires a reload to refresh its local-day value. See [daily usage](usage.md#daily-plans-and-completed-history).
+
 ## 2026-11-15 — Initial local task board
 
 Implemented the user-authorized [local app request](../../knowledge-base/sources/SRC-015-local-task-app.md). Added five-column Kanban, drag-and-drop status/order, a day/week/month calendar, search and attribution filters, full task editing, notes, history, source links, archive/restore and read-only legacy records. Keyboard-accessible task fields provide alternatives for status, dates and order.

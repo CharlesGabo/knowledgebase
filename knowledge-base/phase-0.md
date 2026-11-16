@@ -2,13 +2,15 @@
 
 ## Current deliverable
 
+**Draft now supplied, 2026-11-16:** Charles's revised scope is received as [SRC-025](sources/SRC-025-revised-scope-intake.md), explicitly awaiting Alex review. See [scope comparison](project-scope.md#revised-proposal-awaiting-review). This replaces the earlier lack of a supplied scope draft, not the lack of the full linked integration/design package or evidence of phase acceptance. Task statuses and commitments are unchanged.
+
 Phase 0 is Foundations and Plumbing Design. It covers operations learning and documentation, mapping initial website features to operations data, integration design for review, business-account/signup design, and investigations into AvaTax/exemptions and product content. [SRC-005](sources/SRC-005-website-counter-proposal.md), section 3. Exact acceptance checklist and estimates are still to be agreed; completing setup alone does not complete Phase 0.
 
 Charles reports the operations sandbox running with a test persona and the weekend checklist complete. This supports doing operations learning/design now; it does not establish a separate website environment or working sync. [SRC-004](sources/SRC-004-completed-setup.md)
 
 ## Suggested revision checklist
 
-These are assistant suggestions for Charles's stated next-work-session revision, derived from the framework. They are not extra approved deliverables or implementation decisions. The actual draft to revise has not been supplied.
+These are assistant suggestions for Charles's stated next-work-session revision, derived from the framework. They are not extra approved deliverables or implementation decisions. A revised scope draft is now supplied under SRC-025; the linked detailed integration draft is still unavailable here.
 
 1. Describe two separate applications and Auth/data boundaries, using the [integration framework](integration.md). Do not propose direct website writes into operations business tables or operations admin credentials on the site.
 2. Map each initial customer feature to data owner, operations source, safe outbound projection or inbound inbox, identity/permission checks and target phase. Inspect actual schema/RPCs in the operations repository before naming contracts.

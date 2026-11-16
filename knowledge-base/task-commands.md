@@ -31,7 +31,7 @@ Use `/prompts:task from Alex for Monday: ...` for Alex assignments. The bare `/p
 
 The IDs and task text above are examples, not assignments. `/task` without content prompts for the tasks and desired timing; it does not invent work.
 
-Current task IDs are T-001 through T-006; next new ID is T-007. Consult the [migration map](tasks.md#task-id-migration) for older IDs; original archives retain their historical wording. Include relevant LEGACY-T records when listing pending work, without conflating them with current task IDs.
+Current task IDs are T-001 through T-013; next new ID is T-014 (always read the helper's current allocation before writing). T-001 through T-006 are Charles's Phase 0 tasks; T-007 is Alex's own W76 flaw-fix plan, not an assignment to Charles. T-008 remains an assistant suggestion. SRC-027 archives T-009, revises T-010 to a user-assigned repository task, and adds user-assigned T-011 through T-013 for Tuesday 2026-11-17, with T-013 spanning Wednesday 2026-11-18 as well. Original SRC-026 context/history remains preserved. Consult the [migration map](tasks.md#task-id-migration) for older IDs; original archives retain their historical wording. Include relevant LEGACY-T records when listing pending work, without conflating them with current task IDs.
 
 ## Assignment labels
 
